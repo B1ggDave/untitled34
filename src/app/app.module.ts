@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppComponent } from './app.component';
+import {FishComponent} from './fishtest.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    FishComponent
   ],
   imports: [
     BrowserModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [FishComponent]
 })
 export class AppModule { }
